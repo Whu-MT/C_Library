@@ -5,6 +5,6 @@
 void _assert(char *msg)
 {
 	fputs(msg, stderr);
-	fputs("-- assertion failed\n", stderr);
+	fputs(" -- assertion failed\n", stderr);
 	abort();
 }
